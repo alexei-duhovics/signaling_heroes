@@ -12,7 +12,7 @@ The main focus should be in generating a machine learning based solution to dete
 
 The relevant datasets can be downloaded from the provided Github repository.
 
-The three datasets (found from [training_data.zip](training_data.zip) named *training_* should be used in creating the pipeline and training the model. The teams can choose whether to implement a supervised or an unsupervised model. An unsupervised model will be valued more.
+The three datasets (found from [training_data.zip](training_data.zip)) named *training_* should be used in creating the pipeline and training the model. The teams can choose whether to implement a supervised or an unsupervised model. An unsupervised model will be valued more.
 
 The files *training_data.pcapng* and *training_data.csv* include the same traffic data without any attacks. The file *training_data_attacks.csv* is the same data but enriched with some attack messages and labels. The messages labeled 0 is considered normal and message labeled 1 is considered anomalous.
 
@@ -39,6 +39,20 @@ There are Ericsson mentors present in the challenge areas. Please send your ques
 The test datasets will be provided to the participants at 8:15 on Sunday morning. The same data will be provided both in pcap and csv format. Use your solution to detect the malicious messages from the data. Store your results (malicious messages indeces) to a csv file. The indices should be according to those in the *testing_data.csv* file. Please note that the testing data files do not include any labels.
 
 The uploaded files should at least include the the source code files and the results file (csv).
+
+
+## Evaluation criteria
+
+The evaluation is done based on the following criteria. Only the first criteria is used. In case the evaluation results in a tie (less than 0.1 difference) between two teams, the second criteria is used and so on.
+
+1. F1 Score
+2. Completeness:
+  * Has the pipeline been implemented from PCAP or only from CSV?
+3. Effectiveness:
+  * How long does it take to run the pipeline? (difference of less than a couple of seconds is considered equal)
+4. Elegance:
+  * The readability of the code
+5. Solution to detect anomalies from more challenging datasets
 
 
 ## Links
