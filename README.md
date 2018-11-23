@@ -12,7 +12,7 @@ The main focus should be in generating a machine learning based solution to dete
 
 The relevant datasets can be downloaded from the provided Github repository.
 
-The three datasets (found from [training_data.zip](training_data.zip)) named *training_* should be used in creating the pipeline and training the model. The teams can choose whether to implement a supervised or an unsupervised model. An unsupervised model will be valued more.
+The three datasets (found from [training_data.zip](/docs/training_data.zip)) named *training_* should be used in creating the pipeline and training the model. The teams can choose whether to implement a supervised or an unsupervised model. An unsupervised model will be valued more.
 
 The files *training_data.pcapng* and *training_data.csv* include the same traffic data without any attacks. The file *training_data_attacks.csv* is the same data but enriched with some attack messages and labels. The messages labeled 0 is considered normal and message labeled 1 is considered anomalous.
 
@@ -21,7 +21,7 @@ The datasets folder also includes two more challenging datasets in case the team
 
 ## SS7 crash course
 
-Please use the provided source material provided in the Github repository to familiarize yourself with the SS7 signaling protocol and the relevant attack material. A good starting points is the [SS7_advanced_attacks.pdf](SS7_advanced_attacks.pdf). The attack in question is the SMS interception and SS7 firewall bypass.
+Please use the provided source material provided in the Github repository to familiarize yourself with the SS7 signaling protocol and the relevant attack material. A good starting points is the [SS7_advanced_attacks.pdf](/docs/SS7_advanced_attacks.pdf). The attack in question is the SMS interception and SS7 firewall bypass.
 
 
 ## Where to start
